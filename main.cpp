@@ -32,6 +32,5 @@ int main() {
         while(err>= 1e-6);
     //printf("%.4f",x);
     //cout << x;
-
-    cout<< setprecision(4);
-    cout << x;
+  float n=round(x*100)/100;
+    cout << n;
