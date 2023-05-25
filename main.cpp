@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 using namespace std;
 
 float f(float y){
@@ -32,8 +33,5 @@ int main() {
     //printf("%.4f",x);
     //cout << x;
 
-    cout.precision(4);
+    cout<< setprecision(4);
     cout << x;
-
-    return 0;
-}
