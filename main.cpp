@@ -1,12 +1,19 @@
 #include <iostream>
 #include <cmath>
-#include <iomanip>
 using namespace std;
 
 float f(float y){
     float z=(y*y)*cos(y)+1;
     return z;
 }
+
+//int cifre(float arr[], int dim){
+  //  int c=0;
+    //for(int i=0;i<dim;i++){
+      //  c+=arr[i];
+ //   }return c;
+//}
+
 int main() {
     float a=0,b=0;
     do{
@@ -32,5 +39,12 @@ int main() {
         while(err>= 1e-6);
     //printf("%.4f",x);
     //cout << x;
-  float n=round(x*100)/100;
-    cout << n;
+
+    int n=x*10000;
+    float p=n/10;
+    cout << p;
+
+
+   //cout <<x;
+    return 0;
+}
