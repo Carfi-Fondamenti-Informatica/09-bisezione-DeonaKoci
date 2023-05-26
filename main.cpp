@@ -37,12 +37,12 @@ int main() {
             }
         }}
         while(err>= 1e-6);
-    //printf("%.4f",x);
+    printf("%.3f",x);
     //cout << x;
 
-    int n=x*10000;
-    float p=n/10;
-    cout << p;
+    //int n=x*10000;
+    //float p=n/10;
+    //cout << p;
 
 
    //cout <<x;
