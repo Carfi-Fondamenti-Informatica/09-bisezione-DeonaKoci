@@ -7,13 +7,6 @@ float f(float y){
     return z;
 }
 
-//int cifre(float arr[], int dim){
-  //  int c=0;
-    //for(int i=0;i<dim;i++){
-      //  c+=arr[i];
- //   }return c;
-//}
-
 int main() {
     float a=0,b=0;
     do{
@@ -36,14 +29,21 @@ int main() {
                 break;
             }
         }}
-        while(err>= 1e-6);
-    printf("%.3f",x);
+        while(err>= 0.00001);
+    //printf("%.3f",x);
     //cout << x;
+   //float risultato;
+   //int n=(x*1000);
+   //risultato=(n/1000);
+    //cout << risultato;
 
-    //int n=x*10000;
-    //float p=n/10;
-    //cout << p;
+    x=(x*10000);
+    float r= int(x);
+    float risultato=(r/10000);
+    cout << risultato<< endl;
+    //cout<< float (r/1000);
 
+   
 
    //cout <<x;
     return 0;
